@@ -1,10 +1,11 @@
 # 🚀 Trilha JS Developer — Projeto Pokédex
 
-Guia de anotações para desenvolvimento do projeto **Pokédex** utilizando **HTML, CSS e JavaScript**.
 
 ---
 
+
 # 📒 Anotações (Espaço do Aluno)
+Guia de anotações para desenvolvimento do projeto **Pokédex** utilizando **HTML, CSS e JavaScript**.
 
 ---
 
@@ -148,20 +149,4 @@ Utilize **Fetch API** para consumir dados da PokeAPI.
 📚 Documentação oficial
 🔗 [https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 
-```
-
----
-
-✅ **Melhorias aplicadas:**
-
-- Hierarquia clara de títulos  
-- Separação por seções  
-- Uso de emojis para navegação visual  
-- Links organizados  
-- Blocos de código formatados  
-- Estrutura mais didática para estudo  
-
----
-
-Se quiser, também posso te entregar uma versão **ainda mais profissional para GitHub README** (com badges, preview da Pokédex e índice clicável).
 ```
