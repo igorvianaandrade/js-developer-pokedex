@@ -1,64 +1,167 @@
-### Trilha JS Developer - Pokedex
+# 🚀 Trilha JS Developer — Projeto Pokédex
 
+Guia de anotações para desenvolvimento do projeto **Pokédex** utilizando **HTML, CSS e JavaScript**.
 
+---
 
-## Anotações(Espaço do Aluno)
+# 📒 Anotações (Espaço do Aluno)
 
-# Normalize CSS para garantir consistência entre navegadores
+---
 
-- Embarcar codigo no head do html:
-https://cdnjs.com/libraries/normalize
+# 🎨 Normalize CSS
+Utilize o **Normalize CSS** para garantir consistência de estilos entre diferentes navegadores.
 
-# Estruturar Pastas do Projeto 
-- Assets
-    CSS
-    JS
-index.hmtl
+### Como usar
+Adicione o link dentro da tag `<head>` do HTML.
 
-# Google fonts para uma tipografia agradável
+🔗 https://cdnjs.com/libraries/normalize
 
-- Embarcar codigo no head do html:
-https://fonts.google.com/selection/embed
+---
 
-- Aplicar para todo mundo "*{}" no global.css
+# 📁 Estrutura de Pastas do Projeto
 
-# Mobile firts
+Organize o projeto da seguinte forma:
 
-Boa Prática: Evitar a reescrita de código.
+```
 
-Aplicar a técnica para primeiro fazer o estilo css Mobile e pra telas posteriores incrementar o css
+/assets
+/css
+/js
 
+index.html
 
-# Dinamica
+````
 
-Se você estiver usando JavaScript para gerar essa lista, a lógica da URL é sempre:
+Essa organização facilita a manutenção e escalabilidade do projeto.
+
+---
+
+# 🔤 Google Fonts
+
+Utilize **Google Fonts** para melhorar a tipografia da aplicação.
+
+### Como usar
+Adicione o código de importação dentro do `<head>` do HTML.
+
+🔗 https://fonts.google.com/selection/embed
+
+### Aplicação Global
+No arquivo `global.css`, aplique a fonte para todos os elementos:
+
+```css
+* {
+    font-family: 'NomeDaFonte', sans-serif;
+}
+````
+
+---
+
+# 📱 Mobile First
+
+### Conceito
+
+A abordagem **Mobile First** consiste em criar o layout primeiro para **dispositivos móveis** e depois adaptar para telas maiores.
+
+### Vantagens
+
+* Melhor performance
+* Código mais organizado
+* Evita reescrita desnecessária de CSS
+
+### Boa prática
+
+1. Criar estilos base para **mobile**
+2. Utilizar **media queries** para telas maiores
+
+---
+
+# ⚙️ Dinâmica do Projeto
+
+Se estiver usando **JavaScript para gerar a lista de Pokémons**, utilize a seguinte estrutura de URL para carregar as imagens:
+
+```
 https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/{ID_DO_POKEMON}.png
+```
 
-Type
+Exemplo:
+
+```
+https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png
+```
+
+---
+
+# 🧬 API dos Pokémons
+
+Para obter dados dos Pokémons utilize a **PokeAPI**.
+
+### Exemplo de requisição
+
+```
 https://pokeapi.co/api/v2/pokemon/1
+```
 
-REM TO PX
-https://pixelsconverter.com/rem-to-px 
+### Lista de Pokémons
 
-Media query - Examples
-
-https://www.w3schools.com/Css/css3_mediaqueries_ex.asp
-
-Media query - Sizes Bootstrap
-
-https://getbootstrap.com/docs/5.0/layout/breakpoints/
-
-Pokemon
-
-PokeApi - Lista de pokemons
+```
 https://pokeapi.co/api/v2/pokemon/?offset=0&limit=10
+```
 
+---
 
-Modelo do Pokedex
+# 🎨 Modelo de Interface da Pokédex
 
-https://dribbble.com/shots/6540871-Pokedex-App/attachments/6540871-Pokedex-App?mode=media
+Referência visual para o layout da aplicação.
 
-https://cdn.dribbble.com/userupload/42297016/file/original-ee1c480dc3f7d8d55244a79336cc6c2c.png?resize=800x600
+🔗 Dribbble
+[https://dribbble.com/shots/6540871-Pokedex-App/attachments/6540871-Pokedex-App?mode=media](https://dribbble.com/shots/6540871-Pokedex-App/attachments/6540871-Pokedex-App?mode=media)
 
-Usar Fetch
-https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+🖼️ Imagem do modelo
+[https://cdn.dribbble.com/userupload/42297016/file/original-ee1c480dc3f7d8d55244a79336cc6c2c.png?resize=800x600](https://cdn.dribbble.com/userupload/42297016/file/original-ee1c480dc3f7d8d55244a79336cc6c2c.png?resize=800x600)
+
+---
+
+# 📏 Conversão de REM para PX
+
+Ferramenta útil para converter unidades de medida.
+
+🔗 [https://pixelsconverter.com/rem-to-px](https://pixelsconverter.com/rem-to-px)
+
+---
+
+# 📐 Media Queries
+
+### Exemplos
+
+🔗 [https://www.w3schools.com/Css/css3_mediaqueries_ex.asp](https://www.w3schools.com/Css/css3_mediaqueries_ex.asp)
+
+### Breakpoints do Bootstrap
+
+🔗 [https://getbootstrap.com/docs/5.0/layout/breakpoints/](https://getbootstrap.com/docs/5.0/layout/breakpoints/)
+
+---
+
+# 🌐 Fetch API
+
+Utilize **Fetch API** para consumir dados da PokeAPI.
+
+📚 Documentação oficial
+🔗 [https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+
+```
+
+---
+
+✅ **Melhorias aplicadas:**
+
+- Hierarquia clara de títulos  
+- Separação por seções  
+- Uso de emojis para navegação visual  
+- Links organizados  
+- Blocos de código formatados  
+- Estrutura mais didática para estudo  
+
+---
+
+Se quiser, também posso te entregar uma versão **ainda mais profissional para GitHub README** (com badges, preview da Pokédex e índice clicável).
+```
