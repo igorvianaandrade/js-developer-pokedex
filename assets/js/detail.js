@@ -1,7 +1,5 @@
 function detalharPokemon(detailPokemon) {
 
-
-
   // Pokemon (div)
   document.getElementById("pokemon-div").className += `pokemon ${detailPokemon.type}`
 
