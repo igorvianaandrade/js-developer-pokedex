@@ -1,4 +1,8 @@
-# Trilha JS Developer - Pokedex
+### Trilha JS Developer - Pokedex
+
+
+
+## Anotações(Espaço do Aluno)
 
 # Normalize CSS para garantir consistência entre navegadores
 
@@ -55,10 +59,6 @@ Modelo do Pokedex
 https://dribbble.com/shots/6540871-Pokedex-App/attachments/6540871-Pokedex-App?mode=media
 
 https://cdn.dribbble.com/userupload/42297016/file/original-ee1c480dc3f7d8d55244a79336cc6c2c.png?resize=800x600
-
-GitHub
-
-https://github.com/igorvianaandrade/js-developer-pokedex
 
 Usar Fetch
 https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
